@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+.cplist ul li{
+	margin-bottom:-6px;
+	}
+.cplist ul li a{
+	background:url(../images/iearrow.jpg) no-repeat;
+	}
+.footerpic{
+	background:url(../images/footertitle.jpg) no-repeat;
+	}
+.maplink{
+	 bottom:-1px;
+	 line-height:20px;
+	 cursor:pointer;
+	 }
+#hezi1{
+    width:1420px;
+}
+#top{
+	position:fixed;
+	_position:absolute;
+	left:expression(eval(document.documentElement.scrollLeft+document.documentElement.clientWidth-this.offsetWidth)-(parseInt(this.currentStyle.marginLeft,10)||0)-(parseInt(this.currentStyle.marginRight,10)||0));
+	top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)))
+}
+

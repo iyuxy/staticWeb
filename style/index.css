@@ -1,0 +1,412 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0 auto;
+	padding:0px;
+	font-family:Microsoft YaHei,"微软雅黑",Arial,Helvetica,sans-serif;
+	}
+#head{
+	width:100%;
+	height:76px;
+	}
+.head{
+	width:1200px;
+	height:76px;
+	}
+.headcontent{
+	width:1000px;
+	height:76px;
+	}
+.headcontent a{
+    width:345px;
+	height:76px;
+	display:block;
+	text-decoration:none;
+	float:left;
+   }
+.headleft{
+	width:345px;
+	float:left;
+	height:76px;
+	background:url(../images/title.jpg) no-repeat;
+	}
+.headright{
+	width:500px;
+	height:76px;
+	float:right;
+    }
+.headtel{
+	width:300px;
+	height:76px;
+	background:url(../images/tel.jpg) no-repeat;
+	float:left;
+	}
+.headbtn{
+	margin-top:23px;
+	float:right;
+	}
+.bt1{
+	width:70px;
+	height:30px;
+	background:#6689D4;
+	float:left;
+	color:#fff;
+	font-size:14px;
+	text-align:center;
+	line-height:30px;
+	}
+.bt1 a{
+	width:70px;
+	height:30px;
+	display:block;
+	color:#fff;
+	}
+.bt2 a{
+	width:70px;
+	height:30px;
+	display:block;
+	color:#fff;
+	}
+.bt2{
+	width:70px;
+	height:30px;
+	float:left;
+	color:#fff;
+	font-size:14px;
+	text-align:center;
+	line-height:30px;
+	background:#B9CAF6;
+	cursor:pointer;
+	}
+#nav{
+	width:100%;
+	height:45px;
+	background:#4184BB;
+	}
+.nav{
+	width:1200px;
+	height:45px;
+	}
+.navcontent{
+	width:1000px;
+	height:45px;
+	}
+.navcontent ul{
+	list-style:none;
+	}
+.navcontent ul li{
+	float:left;
+	width:160px;
+	height:45px;
+	text-align:center;
+	color:#FFF;
+	line-height:45px;
+	font-size:16px;
+	}
+.navcontent ul li a{
+	width:160px;
+	height:45px;
+	color:#FFF;
+	display:block;
+	letter-spacing:2px;
+	text-decoration:none;
+	}
+.navcontent ul li a:hover{
+	background:#336691;
+	color:#FFF;
+	}
+.navactive{
+	background:#336691;
+	}
+.backline{
+	border-right:1px solid #639BC9;
+	}
+/*list*/
+#contentbg{
+	background:#BFDFFF;
+	}
+#show{
+	width:1000px;
+	height:300px;
+	}
+#listshow{
+	visibility:hidden;
+	width:100%;
+	height:300px;
+	overflow:hidden;
+  }
+#content{
+	width:1000px;
+	height:530px;
+	margin-top:20px;
+	}
+.contentleft{
+	width:260px;
+	height:530px;
+	float:left;
+	}
+.cpzx{
+	width:100%;
+	height:300px;
+	}
+.cptitle{
+	width:260px;
+	height:40px;
+	background:url(../images/p.jpg) no-repeat;
+    }
+.cptitle  a{
+	width:260px;
+	height:40px;
+	display:block;
+	}
+.cplist{
+	width:90%;
+	height:260px;
+    }
+.cplist ul{
+	list-style:none;
+	}
+.cplist ul li{
+	width:234px;
+	height:35px;
+	}
+.cplist ul li a{
+	width:234px;
+	height:35px;
+	float:left;
+	display:block;
+	line-height:35px;
+	text-decoration:none;
+	text-align:left;
+	color:#444444 ;
+	background:url(../images/item.png) no-repeat;
+	text-indent:1em;
+	margin-left:5px;
+	border-bottom:1px solid #666;
+	letter-spacing:2px;
+	}
+.cplist ul li a:hover{
+	text-decoration:none;
+	color:#000;
+	}
+.contact{
+	width:260px;
+	height:162px;
+	margin-top:10px;
+	}
+.contactbar{
+	width:260px;
+	height:40px;
+	background:url(../images/position.jpg) no-repeat;
+	margin-bottom:10px;
+	}
+.contact a{
+	width:230px;
+	height:145px;
+	display:block;
+	border:8px solid #fff;
+	background:url(../images/map.jpg) no-repeat;
+	overflow:hidden;
+	position:relative;
+	text-decoration:none;
+	}
+.contact a:hover{
+	border:8px solid #406bca;
+	}
+.contact a img{
+	width:41px;
+	height:41px;
+	margin-left:94px;
+	border:none;
+	}
+.zoom{
+    border:none;
+	position:relative;
+	margin-top:-50px;
+  }
+ .maplink{
+	width:100%;
+	height:20px;
+	color:#fff;
+	font-size:12px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	line-height:28px;
+	background:#406bca;
+	display:none;
+	}
+/*
+.contact p{
+	width:90%;
+	height:40px;
+	color:#FFF;
+	font-size:20px;
+	line-height:40px;
+	}
+*/	
+.contact span{
+	width:90%;
+	display:block;
+	font-size:14px;
+	color:#444444 ;
+	height:30px;
+	line-height:30px;
+	}
+.contentright{
+	width:700px;
+	height:530px;
+	float:right;
+	}
+.gsjs{
+	width:700px;
+	height:300px;
+	}
+.gsjs img{
+	width:200px;
+	height:169px;
+	float:left;
+	margin-top:40px;
+	}
+.gsjstext{
+	width:480px;
+	height:124px;
+	float:right;
+	}
+.gsjs h2{
+	width:700px;
+	height:40px;
+	background:url(../images/about.jpg) no-repeat;
+	}
+h2 a{
+	width:60px;
+	height:40px;
+	display:block;
+	float:right;
+	}
+.gsjstext span{
+  font-size:14px;
+  font-weight:bold;
+  color:#444;
+  display:block;
+  margin-top:10px;
+ }
+.gsjstext p{
+	font-size:14px;
+	text-indent:2em;
+	line-height:24px;
+	color:#444;
+	}
+#floatpic{
+	width:700px;
+	height:175px;
+	margin-top:10px;
+	}
+.pictitle{
+	width:700px;
+	height:40px;
+	background:url(../images/productpic.jpg) no-repeat;
+	}
+.pictitle a{
+	width:70px;
+	height:40px;
+	float:right;
+	}
+.pichezi{
+	width:700px;
+	height:165px;
+	margin-top:10px;
+	position:relative;
+	white-space:nowrap;
+	overflow:hidden;
+	}
+#piccontent{
+width:800%;
+}
+#hezi1{
+    width:1400px;
+	float:left;
+	}
+#hezi2{
+	float:left;
+	}
+.hezi ul{
+	list-style:none;
+}
+.hezi ul a{
+	text-align:center;
+	text-decoration:none;
+	display:block;
+	border:none;
+	width:180px;
+	color:#444;
+	height:150px;
+	}
+.hezi ul a img{
+	border:none;
+	}
+.hezi ul li{
+	width:180px;
+	height:150px;
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+	}
+.hezi ul li p{
+	font-size:15px;
+	color:#666;
+	margin-top:4px;
+	}
+#footer{
+	width:100%;
+	height:100px;
+	background:url(../images/footerbg.jpg) repeat-x;
+	}
+.footercontent{
+	width:1000px;
+	heigh:100px;
+	}
+.footerleft{
+	width:300px;
+	float:left;
+	text-align:left;
+	}
+.footerpic{
+	width:280px;
+	height:50px;
+	background:url(../images/footerpic.png) no-repeat;
+	}
+.footerleft  p{
+	color:#fff;
+	line-height:26px;
+	font-size:14px;
+	}
+.footerright{
+width:700px;
+height:70px;
+float:right;
+margin-top:20px;
+	}
+.footerright{
+    font-size:15px;
+	color:#fff;
+	text-align:center;
+	line-height:30px;
+	}
+#top{
+	position:fixed;
+	bottom:100px;
+	right:50px;
+	width:40px;
+	height:40px;
+	display:none;
+	cursor:pointer;
+	background:url(../images/top.png) no-repeat;
+}
+/*about us*/
+.aboutusbg{
+	width:1000px;
+	height:200px;
+	background:url(../images/bg1.jpg) no-repeat;
+	}
